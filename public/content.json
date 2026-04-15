@@ -1,7 +1,7 @@
 {
   "auditMeta": {
     "generatedDate": "April 15, 2026",
-    "reportId": "AUD-1776266812987",
+    "reportId": "PLACEHOLDER",
     "confidentialityLabel": "Confidential audit brief",
     "preparedForLabel": "Specially Prepared for",
     "currencyCode": "USD",
@@ -9,128 +9,96 @@
     "locale": "en-US"
   },
   "business": {
-    "name": "Orient Jewellers",
-    "location": "Johannesburg, Fordsburg",
+    "name": "PLACEHOLDER Business",
+    "location": "City, State",
     "logoUrl": "/assets/logo.png",
-    "industry": "retail Jewellery store business",
+    "industry": "retail",
     "storeCount": 1,
     "teamSize": null,
-    "website": "https://www.orientjewellers.co.za",
-    "primaryPhone": "+27 11 836 0961"
+    "website": "https://example.com",
+    "primaryPhone": "+1 555 0100"
   },
   "reviews": {
     "rating": 4.5,
-    "count": 50,
+    "count": 100,
     "starsDisplay": "★★★★★",
     "quote1": "Great service!",
     "quote2": "Highly recommend!",
-    "themes": [
-      "Service quality",
-      "Response time",
-      "Professionalism"
-    ]
+    "themes": ["Quality", "Service", "Value"]
   },
   "traffic": {
     "sources": [
-      {
-        "label": "Google Search",
-        "percent": 68,
-        "colorKey": "search"
-      },
-      {
-        "label": "Website",
-        "percent": 22,
-        "colorKey": "website"
-      },
-      {
-        "label": "Direct / Other",
-        "percent": 10,
-        "colorKey": "direct"
-      }
+      { "label": "Google Search", "percent": 68, "colorKey": "search" },
+      { "label": "Website", "percent": 22, "colorKey": "website" },
+      { "label": "Direct / Other", "percent": 10, "colorKey": "direct" }
     ]
   },
   "callModel": {
-    "inboundCallsPerWeekMin": 15,
-    "inboundCallsPerWeekMax": 20,
+    "inboundCallsPerWeekMin": 30,
+    "inboundCallsPerWeekMax": 40,
     "answerRateMin": 34,
     "answerRateMax": 39,
-    "missedCallsPerWeekMin": 9,
-    "missedCallsPerWeekMax": 13,
-    "answeredCallsPerWeekMin": 5,
-    "answeredCallsPerWeekMax": 8,
+    "missedCallsPerWeekMin": 20,
+    "missedCallsPerWeekMax": 26,
+    "answeredCallsPerWeekMin": 10,
+    "answeredCallsPerWeekMax": 16,
     "missedCallTypeSplit": [
-      {
-        "label": "Pricing inquiries",
-        "percent": 52
-      },
-      {
-        "label": "Custom requests",
-        "percent": 31
-      },
-      {
-        "label": "Appointments",
-        "percent": 17
-      }
+      { "label": "Pricing inquiries", "percent": 52 },
+      { "label": "Custom requests", "percent": 31 },
+      { "label": "Appointments", "percent": 17 }
     ]
   },
   "revenueModel": {
-    "monthlyLossMin": 7200,
-    "monthlyLossMax": 13000,
-    "monthlyLossMidpoint": 9900,
-    "sixMonthCumulativeLeak": 59400,
-    "lineSeries": [
-      9900,
-      19800,
-      29700,
-      39600,
-      49500,
-      59400
-    ]
+    "monthlyLossMin": 16000,
+    "monthlyLossMax": 26000,
+    "monthlyLossMidpoint": 21000,
+    "sixMonthCumulativeLeak": 126000,
+    "lineSeries": [21000, 42000, 63000, 84000, 105000, 126000]
   },
   "breakdown": {
     "rows": [
       {
-        "callType": "fine diamond jewellery Inquiries",
+        "callType": "Product Inquiries",
+        "weeklyMissedMin": 10,
+        "weeklyMissedMax": 13,
+        "monthlyImpactMin": 10000,
+        "monthlyImpactMax": 15600
+      },
+      {
+        "callType": "Custom Requests",
+        "weeklyMissedMin": 6,
+        "weeklyMissedMax": 8,
+        "monthlyImpactMin": 4800,
+        "monthlyImpactMax": 8000
+      },
+      {
+        "callType": "Appointments",
         "weeklyMissedMin": 4,
-        "weeklyMissedMax": 7,
-        "monthlyImpactMin": 4500,
-        "monthlyImpactMax": 7800
-      },
-      {
-        "callType": "Custom & Special Requests",
-        "weeklyMissedMin": 2,
-        "weeklyMissedMax": 4,
-        "monthlyImpactMin": 2160,
-        "monthlyImpactMax": 3900
-      },
-      {
-        "callType": "Appointment & Viewing Requests",
-        "weeklyMissedMin": 1,
-        "weeklyMissedMax": 3,
-        "monthlyImpactMin": 1080,
-        "monthlyImpactMax": 2080
+        "weeklyMissedMax": 5,
+        "monthlyImpactMin": 2400,
+        "monthlyImpactMax": 4000
       }
     ],
     "riskBadge": "High-intent calls at risk",
     "opportunityCards": [
       {
         "title": "High-value inquiries",
-        "subtitle": "Pricing, availability & detailed questions",
-        "valueNote": "Highest revenue potential per call",
-        "impactTier": "$",
+        "subtitle": "Pricing & availability",
+        "valueNote": "Highest revenue potential",
+        "impactTier": "$$",
         "mobileWidthPercent": 100
       },
       {
         "title": "Custom requests",
-        "subtitle": "Complex orders needing consultation",
-        "valueNote": "Mid-to-high revenue per conversion",
+        "subtitle": "Complex orders",
+        "valueNote": "Mid-to-high revenue",
         "impactTier": "$",
         "mobileWidthPercent": 88
       },
       {
         "title": "Booking requests",
-        "subtitle": "Appointments & scheduling",
-        "valueNote": "Consistent volume, steady value",
+        "subtitle": "Appointments",
+        "valueNote": "Steady value",
         "impactTier": "$",
         "mobileWidthPercent": 76
       }
@@ -138,14 +106,14 @@
   },
   "comparison": {
     "currentAnsweredRate": 36,
-    "currentMonthlyLoss": 9900,
+    "currentMonthlyLoss": 21000,
     "projectedAnsweredRate": 98,
     "projectedMonthlyLoss": 0,
-    "comparisonFootnote": "Based on industry benchmarks and your call volume"
+    "comparisonFootnote": "Based on industry benchmarks"
   },
   "projection90d": {
     "answerRateProjected": "98-100%",
-    "monthlyRecoveredProjected": "8,800 - 11,000",
+    "monthlyRecoveredProjected": "$18,000 - $24,000",
     "paybackPeriodProjected": "42-58 days",
     "barWidths": {
       "answerRate": "w-[99%]",
@@ -155,18 +123,13 @@
   },
   "recoveryPlan": {
     "headline": "Recommended Recovery Plan",
-    "body": "Our AI Assistant will answer every call 24/7, qualify leads, provide information, and book appointments directly into your calendar.",
-    "capabilities": [
-      "24/7 call answering",
-      "Lead qualification",
-      "Appointment booking",
-      "Information delivery"
-    ],
+    "body": "Our AI Assistant will answer every call 24/7.",
+    "capabilities": ["24/7 answering", "Lead qualification", "Booking", "Information"],
     "supportingMediaUrl": "/assets/placeholder.gif"
   },
   "liveDemo": {
     "ctaLabel": "Try Fourcee on your phone",
-    "helperCopy": "Uses your public profile & site context. No charge. ~60–90s.",
+    "helperCopy": "No charge. ~60–90s.",
     "phoneCountryDefault": "+1",
     "demoDurationHint": "~60–90s"
   },
@@ -183,13 +146,9 @@
     "fontBody": "DM Sans"
   },
   "compliance": {
-    "dataSourceLine": "Data sourced from your Google Business Profile + public web data + industry benchmarks.",
-    "disclaimerShort": "Estimates based on industry benchmarks",
-    "disclaimerLong": "The ROI calculator and case studies on this site are illustrative only.",
-    "allowedClaims": [
-      "Industry benchmark data",
-      "Public review analysis",
-      "Traffic pattern modeling"
-    ]
+    "dataSourceLine": "Data sourced from public data + industry benchmarks.",
+    "disclaimerShort": "Estimates based on benchmarks",
+    "disclaimerLong": "Illustrative only.",
+    "allowedClaims": ["Benchmark data", "Public analysis", "Pattern modeling"]
   }
 }
